@@ -1,7 +1,7 @@
 # Seezor (see & visor = seezor)
 The app to fetch films data from omdb service
 
-It's a statis website. You can even run it locally by open index.html in your browser. No server needed or some special env.
+It's a static website. You can even run it locally by opening index.html in your browser. No server needed or some special env.
 
 I've done it in the demo purpose. You can see that the javascript core has been developed by mixing of the "old-way" es5 standard and the es6 one. It has been done because I'd like to show that I've enough skills to handle both cases.
 
