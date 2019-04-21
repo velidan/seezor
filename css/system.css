@@ -1,0 +1,15 @@
+html {
+	min-height: 100%;
+}
+
+body {
+	min-height: 100vh;
+	max-width: var(--size-desktop-up);
+	padding: 0 50px;
+	margin: 0 auto;
+	background-color: var(--palette-secondary-color-1);
+}
+
+.none {
+  display: none !important;
+}

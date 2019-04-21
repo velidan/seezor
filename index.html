@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Seezor</title>
+  <meta name="description" content="A service to see coolest films in the world">
+  <meta name="keywords" content="films, see films, cinema online, view Game of Thrones online, see Avengers online" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/system.css">
+  <link rel="stylesheet" href="css/typography.css">
+  <link rel="stylesheet" href="css/responsive_schema.css">
+
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#932023">
+</head>
+
+<body class="l-grid root">
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <header>
+    <div class="search" aria-label="Search film by name form">
+      <input class="search-input st-label" aria-label="The input to enter search criteria" type="text" value="" name="search_input" />
+      <button class="search-button st-label" aria-label="Press to execute search request">Search</button>
+    </div>
+  </header>
+  <main>
+    <gallery-component class="l-grid preview-list" aria-role="grid"></gallery-component>
+
+    <loader-component></loader-component>
+    <!-- 
+      Content will be dynamically added. 
+      Also we can add some pref like js-<class> to clearly identify that it will be used in JS
+      -->
+    <p  aria-label="Information about content status" class="notice"></h4>
+  </main>
+
+  <!-- TODO: Pagination -->
+  <footer></footer>
+
+  <script src="js/core/App.js"></script>
+
+  <script src="js/core/modules/App.dom.js"></script>
+  <script src="js/core/modules/App.event.js"></script>
+  <script src="js/core/modules/App.http.js"></script>
+
+  <script src="js/core/static/App.utils.js"></script>
+
+  <script src="js/components/Gallery.component.js"></script>
+  <script src="js/components/GalleryItem.component.js"></script>
+  <script src="js/components/Loader.component.js"></script>
+
+  <script src="js/search.js"></script>
+  <script src="js/main.js"></script>
+  
+
+</body>
+
+</html>

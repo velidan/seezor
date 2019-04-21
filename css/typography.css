@@ -1,0 +1,5 @@
+.st-label {
+  font: 16px Verdana, Geneva, sans-serif;
+	color: var(--palette-secondary-color-0);
+	font-weight: bold;
+}

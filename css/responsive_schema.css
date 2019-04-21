@@ -1,0 +1,27 @@
+:root {
+    --size-tablet-phone-only: 599x;
+    --size-tablet-portrait-up: 600px;
+    --size-tablet-landscape-up: 900px;
+    --size-desktop-up: 1200px;
+    --size-big-desktop-up: 1800px;
+}
+
+/* --- for phone only --- */
+@media (max-width: 599px) {}
+
+/* --- for tablet portrait up --- */
+@media (min-width: 600px) {}
+
+/* --- for tablet landscape up --- */
+@media (min-width: 900px) {
+    html {
+        width:100vw;
+        overflow-x:hidden;
+    }
+}
+
+/* --- for desktop up --- */
+@media (min-width: 1200px) {}
+
+/* --- for big desktop up --- */
+@media (min-width: 1800px) {}
